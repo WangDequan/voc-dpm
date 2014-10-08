@@ -1,4 +1,7 @@
 *.mex*
+*.m~
+*~
 learn
 svm_mex601
 .nfs*
+data/caffe_nets

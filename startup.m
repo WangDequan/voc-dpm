@@ -11,6 +11,10 @@
 % -------------------------------------------------------
 
 % Prepares your matlab workspace for using voc-release5.
+addpath('caffe/matlab/caffe');
+maxNumCompThreads(32);
+setenv('OMP_NUM_THREADS','32');
+fprintf('Startup Done\n');
 global G_STARTUP;
 
 if isempty(G_STARTUP)
